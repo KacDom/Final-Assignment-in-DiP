@@ -36,15 +36,15 @@ class TestFunctions(unittest.TestCase):
         self.assert_(generate_urls(100, 1000, specific_line=[101]) == [
             'https://api.um.warszawa.pl/api/action/dbtimetable_get?id=e923fa0e-d96c-43f9-ae6e-60518c9f3238&busstopId=100&busstopNr=1000&line=101&apikey=9a4a37e2-9e5c-46f8-833d-5e1abbe2d85c'])
 
+    def test_download_bus_stops(self):
+        df = download_bus_stops()
+        self.assert_(isinstance(df, pd.DataFrame))
 
     """
     To test other functions I'd need to be certain that the data base from which I download data will cooporate and
     I'm affraid it often does not. Also, to test map_points() I'd need a .PNG file
     """
-    def test_download_bus_stops(self):
-        df = download_bus_stops()
-        self.assert_(isinstance(df, pd.DataFrame))
-
+        
     def test_map_points(self):
         pass
 
