@@ -12,3 +12,9 @@ Locations with a significant percent of busses exceeding that speed limit plotte
 
 ● Analysis of punctuality of buses during the observed period (compare actual arrival times at
 the bus stops against the schedule).
+
+## The package is installable with pip
+```bash
+git clone https://github.com/KacDom/Final-Assignment-in-DiP
+sudo python setup.py install
+```
