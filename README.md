@@ -9,6 +9,8 @@ a period of time. Then it performs an analysis of the collected data. Exemplary 
 approximate the real speed by assuming that the bus is moving during the minute in a straight line).
 Locations with a significant percent of busses exceeding that speed limit plotted on a map.
 For example:
+
+
 <img src="https://github.com/KacDom/Final-Assignment-in-DiP/blob/main/speeders.png" width="300" height="200">
 
 
