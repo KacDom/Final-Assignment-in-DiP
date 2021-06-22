@@ -10,6 +10,7 @@ approximate the real speed by assuming that the bus is moving during the minute 
 Locations with a significant percent of busses exceeding that speed limit plotted on a map.
 For example:
 ![alt text](https://github.com/KacDom/Final-Assignment-in-DiP/blob/main/speeders.png)
+<img src="https://github.com/KacDom/Final-Assignment-in-DiP/blob/main/speeders.png" width="100" height="100">
 
 
 ● Analysis of punctuality of buses during the observed period (compare actual arrival times at
