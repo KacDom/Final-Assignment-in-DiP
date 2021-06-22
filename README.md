@@ -23,3 +23,4 @@ git clone https://github.com/KacDom/Final-Assignment-in-DiP
 cd Final-Assignment-in-DiP
 python setup.py install
 ```
+## See demo_usage.ipnyb for information how to use the package
